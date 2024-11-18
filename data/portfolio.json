@@ -42,7 +42,7 @@
         "link": "https://github.com/helene-dumont/EcoBlissBath.git"
     },
     {
-        "image": "Tomsen.png",
+        "image": "tomsen.png",
         "alt": "Projet TOMSEN",
         "title": "Tomsen",
         "text": "Définition d'une stratégie de test pour une application de gestion financière avant sa mise en production. Analyse des spécifications fonctionnelles, définition d'une stratégie de test, planification des tests selon les prints définis par l'approche Agile, et rédaction d'un cahier de recette.",
