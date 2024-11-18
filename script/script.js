@@ -11,6 +11,26 @@ function handleNavbarScroll() {
     };
 }
 
+//Function to reinit display links and apply style to the clicked link passed in params 
+function DisplayLinks (clickedLink) {
+    let navlinks = document.querySelectorAll(".nav-link");
+    navlinks.forEach((link) => {
+        link.classList.remove("active");
+    })
+    clickedLink.classList.add("active");
+}
+
+//Function to apply style to the active link
+function activeLink() {
+    let navlinks = document.querySelectorAll(".nav-link");
+    navlinks.forEach((link) => {
+        link.addEventListener("click", () => {
+            //Call to the function to apply style to the links 
+            DisplayLinks(link);
+        })
+    })
+}
+
 // Function to handle navbar collapse on small devices after a click
 function handleNavbarCollapse() {
     const navLinks = document.querySelectorAll(".nav-item");
@@ -21,7 +41,7 @@ function handleNavbarCollapse() {
             new bootstrap.Collapse(menuToggle).toggle();
         });
     });
-}
+};
 
 // Function to dynamically create HTML elements from the JSON file
 function createSkillsFromJSON() {
@@ -39,8 +59,8 @@ function createSkillsFromJSON() {
                 card.classList.add("col-lg-4", "mt-4");
                 card.innerHTML = `
                     <div class="card skillsText">
-                        <div class="card-body">
-                            <img src="./images/${item.image}" />
+                        <div class="card-body-skill">
+                            <img class="card-img" src="./images/skills/${item.image}" alt="${item.title}" />
                             <h4 class="card-title mt-3">${item.title}</h4>
                             <p class="card-text mt-3">${item.text}</p>
                         </div>
@@ -75,19 +95,19 @@ function createPortfolioFromJSON() {
                 card.classList.add("col-lg-4", "mt-4");
                 card.innerHTML = `
                     <div class="card portfolioContent">
-                    <img class="card-img-top" src="images/${item.image}" style="width:100%">
-                    <div class="card-body">
-                        <h4 class="card-title">${item.title}</h4>
-                        <p class="card-text">${item.text}</p>
-                        <div class="text-center">
-                            <a href="${item.link}" class="btn btn-success">Lien</a>
+                        <img class="card-img-top" src="./images/portfolio/${item.image}" alt="${item.alt}" style="width:100%"/>
+                        <div class="card-body">
+                            <h4 class="card-title">${item.title}</h4>
+                            <p class="card-text">${item.text}</p>
+                            <div class="text-center">
+                                <a href="${item.link}" class="btn btn-success">Lien</a>
+                            </div>
                         </div>
                     </div>
-                </div>
                 `;
 
                 // Append the card to the current row
-                row.apendChild(card);
+                row.appendChild(card);
 
                 // If the index is a multiple of 3 or it's the last element, create a new row
                 if ((index + 1) % 3 === 0 || index === data.length - 1) {
@@ -104,3 +124,4 @@ handleNavbarScroll();
 handleNavbarCollapse();
 createSkillsFromJSON();
 createPortfolioFromJSON();
+activeLink ();
