@@ -95,13 +95,18 @@ function createPortfolioFromJSON() {
                 card.innerHTML = `
                     <div class="card portfolioContent">
                         <img class="card-img-top" src="./images/portfolio/${item.image}" alt="${item.alt}" style="width:100%"/>
+                        
                         <div class="card-body">
                             <h4 class="card-title">${item.title}</h4>
-                            <p class="card-text">${item.text}</p>
-                            <div class="text-center">
-                                <a href="${item.link}" class="btn btn-success">Lien</a>
-                            </div>
-                        </div>
+                                <div class="text-center">
+                                    <input type="button" class="btn btn-success" value="Voir le projet" onClick=window.open("${item.link_project}");
+                                </div>
+                        </div>        
+                        <div class="card-text-portfolio-section">    
+                            <p class="card-text-portfolio">${item.text}</p>
+                        </div>        
+                            
+                        
                     </div>
                 `;
 

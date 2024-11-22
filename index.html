@@ -2,24 +2,22 @@
 <html lang="fr">
 
 <head>
-    <link rel="icon" href="images/logoHD.png" type="image/webp">
+    <link rel="icon" href="images/logoHD.webp" type="image/webp">
     <title>Hélène Dumont - Testeuse logiciel</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Portfolio de Hélène Dumont, testeuse logiciel">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- linking css file -->
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Special+Elite&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Special+Elite&display=swap" rel="stylesheet">
     <!-- bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -27,7 +25,9 @@
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
             <div class="container">
-                <img src="images/logoHD.png" alt="logo HD" class="logo-navbar">
+                <a href="#home">
+                    <img src="images/logoHD.webp" alt="logo HD" class="logo-navbar" >
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +38,7 @@
                             <a class="nav-link" href="#home">Accueil</a>               
                             <a class="nav-link" href="#about">Présentation</a>
                             <a class="nav-link" href="#skills">Compétences</a>
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                            <a class="nav-link" href="#portfolio">Projets</a>
                             <a class="nav-link" href="#contact">Contact</a>
                     </ul>
                 </div>
@@ -61,10 +61,10 @@
     <!-- about section-->
     <section id="about">
         <div class="container mt-4 pt-4">
-            <h2 class="presentation">Présentation</h2>
+            <h3 class="title text-center">Présentation</h3>
             <div class="row mt-4">
                 <div class="col-lg-4">
-                    <img src="images/photoCV2.jpg" class="imageAboutPage" alt="ma photo">
+                    <img src="images/maphotoCV2.webp" class="imageAboutPage" alt="ma photo">
                 </div>
 
                 <div class="col-lg-8">
@@ -78,28 +78,28 @@
     <!-- skills section-->
     <section id="skills">
         <div class="container">
-            <h2 class="text-center">Compétences</h2>
+            <h3 class="title text-center">Compétences</h3>
         </div>
     </section>
 
     <!-- portfolio section-->
     <section id="portfolio">
         <div class="container mt-3">
-            <h2 class="text-center">Projets réalisés</h2>
+            <h3 class="title text-center">Projets réalisés</h3>
         </div>
     </section>
 
     <!-- contact section-->
     <section id="contact">
         <div class="container mt-3 contactContent">
-            <h2 class="text-center">Contactez-moi</h2>
+            <h3 class="title text-center">Contactez-moi</h3>
             <div class="row">
                 <div class="col-lg-4 mt-4 contactColumn">
                     <i class="fa-solid fa-phone fa-4x"></i>
                     <p>06.03.61.18.67</p>
                 </div>
                 <div class="col-lg-4 mt-4 contactColumn">
-                    <i class="fa-solid fa-envelope fa-3x btn_link"></i>
+                    <i class="fa-solid fa-envelope fa-3x"></i>
                     <a class="mail" href="mailto:helene.dumont31@gmail.com">helene.dumont31@gmail.com</a>
                 </div>
                 <div class="col-lg-4 mt-4 contactColumn">

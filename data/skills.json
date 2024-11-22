@@ -1,61 +1,61 @@
 [
     {
-        "image": "html-css.jpg",
+        "image": "html-css.webp",
         "alt": "HTML - CSS",
         "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS"
     },
     {
-        "image": "js.jpg",
+        "image": "js.webp",
         "alt": "Java Script",
         "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires"
     },
     {
-        "image": "react.jpg",
+        "image": "react.webp",
         "alt": "React",
         "text": "Création d’applications React, création de composants et manipulation de leur état"
     },
     {
-        "image": "VScode.png",
+        "image": "VScode.webp",
         "alt": "VScode",
         "text": "Maîtrise d'un environnement de développement intégré populaire"
     },
     {
-        "image": "gestion-de-projet.png",
+        "image": "gestion-de-projet.webp",
         "alt": "Gestion de projet",
         "text": "Gestion de projet : analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet"
     },
     {
-        "image": "Agile.png",
+        "image": "Agile.webp",
         "alt": "Méthodologie agile",
         "text": "Méthodologie Agile : communication, transparence et adaptation dans le développement de projet"
     },
     {
-        "image": "optimisation-et-debug.png",
+        "image": "optimisation-et-debug.webp",
         "alt": "Optimisation et debug",
         "text": "Optimisation et debug : identification des anomalies et correction d’un site existant, optimisation SEO et performance, publication d’un site en ligne"
     },
     {
-        "image": "swagger.png",
+        "image": "swagger.webp",
         "alt": "Swagger",
         "text": "Description d'API avec Swagger"
     },
     {
-        "image": "test.png",
+        "image": "test.webp",
         "alt": "Tests",
         "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
     },
     {
-        "image": "cypress.png",
+        "image": "cypress.webp",
         "alt": "Cypress",
         "text": "Exécution et analyse des tests automatisés"
     },
     {
-        "image": "jira.png",
+        "image": "jira.webp",
         "alt": "Jira",
         "text": "Planification, gestion de projet et collaboration - Suivi des tâches, gestion des bugs"
     },
     {
-        "image": "notion.png",
+        "image": "notion.webp",
         "alt": "Notion",
         "text": "Planification, suivi et mise à jour de projets"
     }

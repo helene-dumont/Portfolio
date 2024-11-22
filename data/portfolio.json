@@ -1,51 +1,51 @@
 [
     {
-        "image": "724_events.png",
+        "image": "724_events.webp",
         "alt": "Projet 724_events",
         "title": "724 Events",
-        "text": "Conception d'une campagne de tests à partir du cahier de recette pour un site web en développement d'une agence d'événementiel. Identification, documentation et suivi des anomalies dans Jira. Campagne de tests exploratoires pour identifier des anomalies non couvertes par le cahier de recette. Clôture du projet avec la rédaction du bilan de campagne de test.",
-        "link": "https://github.com/helene-dumont/724-Events.git"
+        "text": "Conception d'une <b>campagne de tests</b> à partir du cahier de recette pour un site web en développement d'une agence d'événementiel. <b>Identification, documentation et suivi des anomalies</b> dans <b>Jira</b>. Campagne de <b>tests exploratoires</b> pour identifier des anomalies non couvertes par le cahier de recette. Clôture du projet avec la rédaction du <b>bilan de campagne de test</b>.",
+        "link_project": "https://github.com/helene-dumont/724-Events.git"
     },
     {
-        "image": "print_it.jpg",
+        "image": "print_it.webp",
         "alt": "Projet Print it",
         "title": "Print it",
-        "text": "Dynamiser le site internet statique d'une imprimerie avec la mise à jour du code HTML, l'ajout d'un carroussel ainsi que de fonctionnalités intéractives en Java Script afin de rendre le site plus engageant.",
-        "link": "https://github.com/helene-dumont/Print-it.git"
+        "text": "Dynamiser le site internet statique d'une imprimerie avec la mise à jour du code <b>HTML</b>, l'ajout d'un carroussel ainsi que de fonctionnalités intéractives en <b>Java Script</b> afin de rendre le site plus engageant.",
+        "link_project": "https://github.com/helene-dumont/Print-it.git"
     },
     {
-        "image": "sophie-bluel.png",
+        "image": "sophie-bluel.webp",
         "alt": "Projet Sophie Bulel, architecte",
         "title": "Sophie Bluel - Architecte",
-        "text": "Création d'un site web dynamique pour une architecte d'intérieur en utilisant Java Script pour la manipulation des éléments du DOM et en communiquant avec l'API pour la création dynamique des éléments. Création de la page de connexion pour l'administrateur et de modales pour l'ajout/la suppression de projets.",
-        "link": "https://github.com/helene-dumont/Sophie-Bluel-Projet7-OC.git"
+        "text": "Création d'un site web dynamique pour une architecte d'intérieur en utilisant <b>Java Script</b> pour la <b>manipulation des éléments du DOM</b> et en communiquant avec l'API pour la <b>création dynamique des éléments</b>. Création de la page de connexion pour l'administrateur et de modales pour l'ajout/la suppression de projets.",
+        "link_project": "https://github.com/helene-dumont/Sophie-Bluel-Projet7-OC.git"
     },
     {
-        "image": "chambre_Booki.jpg",
+        "image": "chambre_Booki.webp",
         "alt": "Projet Booki",
         "title": "Booki",
-        "text": "Création de la page d'accueil pour une agence de voyage en utilisant HTML et CSS. Intégration de l'interface responsive à partir des maquettes Figma et des spécificités du projet.",
-        "link": "https://github.com/helene-dumont/Booki.git"
+        "text": "Création de la page d'accueil pour une agence de voyage en utilisant <b>HTML et CSS</b>. Intégration de l'<b>interface responsive</b> à partir des maquettes Figma et des spécificités du projet.",
+        "link_project": "https://github.com/helene-dumont/Booki.git"
     },
     {
-        "image": "chambre_kasa.jpg",
+        "image": "chambre_kasa.webp",
         "alt": "Projet Kasa",
         "title": "Kasa",
-        "text": "Initialisation d'une application de location de logements avec Create React App pour l'implémentation du front end. Création de composants dynamiques avec React et configuration de la navigation entre les pages de l'application avec React Router.",
-        "link": "https://github.com/helene-dumont/KASA.git"
+        "text": "Initialisation d'une application de location de logements avec <b>Create React App</b> pour l'implémentation du front end. Création de composants dynamiques avec React et configuration de la navigation entre les pages de l'application avec <b>React Router</b>.",
+        "link_project": "https://github.com/helene-dumont/KASA.git"
     },
     {
-        "image": "EcoBlissBath.jpg",
+        "image": "EcoBlissBath.webp",
         "alt": "Projet Eco Bliss Bath",
         "title": "Eco Bliss Bath",
-        "text": "Automatisation des tests fonctionnels du site web d'une start up de produits éco responsables. Rédaction des scripts d'automatisation en Java Script. Tests effectués avec Cypress. Rédaction d'un rapport détaillé sur le résultat des tests avec relevé des anomalies détectées.",
-        "link": "https://github.com/helene-dumont/EcoBlissBath.git"
+        "text": "<b>Automatisation des tests fonctionnels</b> du site web d'une start up de produits éco responsables. <b>Rédaction des scripts d'automatisation</b> en Java Script. Tests effectués avec <b>Cypress</b>. Rédaction d'un rapport détaillé sur le résultat des tests avec relevé des anomalies détectées.",
+        "link_project": "https://github.com/helene-dumont/EcoBlissBath.git"
     },
     {
-        "image": "tomsen.png",
+        "image": "tomsen.webp",
         "alt": "Projet TOMSEN",
         "title": "Tomsen",
-        "text": "Définition d'une stratégie de test pour une application de gestion financière avant sa mise en production. Analyse des spécifications fonctionnelles, définition d'une stratégie de test, planification des tests selon les prints définis par l'approche Agile, et rédaction d'un cahier de recette.",
-        "link": "./files"
+        "text": "Définition d'une <b>stratégie de test</b> pour une application de gestion financière avant sa mise en production. Analyse des spécifications fonctionnelles, définition d'une stratégie de test, planification des tests selon les prints définis par l'approche <b>Agile</b>, et <b>rédaction d'un cahier de recette</b>.",
+        "link_project": "./files/strategie_test.zip"
     }
 ]
