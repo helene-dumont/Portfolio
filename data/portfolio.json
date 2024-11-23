@@ -45,7 +45,7 @@
         "image": "tomsen.webp",
         "alt": "Projet TOMSEN",
         "title": "Tomsen",
-        "text": "Définition d'une <b>stratégie de test</b> pour une application de gestion financière avant sa mise en production. Analyse des spécifications fonctionnelles, définition d'une stratégie de test, planification des tests selon les prints définis par l'approche <b>Agile</b>, et <b>rédaction d'un cahier de recette</b>.",
+        "text": "Définition d'une <b>stratégie de test</b> pour une application de gestion financière avant sa mise en production. Analyse des spécifications fonctionnelles, définition d'une stratégie de test, planification des tests selon les sprints définis par l'approche <b>Agile</b>, et <b>rédaction d'un cahier de recette</b>.",
         "link_project": "./files/strategie_test.zip"
     }
 ]
