@@ -104,6 +104,12 @@
     font-size : 18px;
     text-align: justify;
 }
+.imageIstqb {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 40%;
+}
 
 /********** ABOUT **********/
 
