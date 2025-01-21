@@ -58,5 +58,10 @@
         "image": "notion.webp",
         "alt": "Notion",
         "text": "Planification, suivi et mise à jour de projets"
+    },
+    {
+        "image": "squash.webp",
+        "alt": "Squash TM",
+        "text": "Gestion et import des exigences, conception et implémentation des scénarios et cas de test, exécution des campagnes et itérations de test, déclaration et suivi des bugs, génération de la documentation de test."
     }
 ]
